@@ -1,0 +1,44 @@
+{
+    "name": "usee/filter",
+    "description": "the package is for filtering data for EXP you have search bar/page with multi filters option this package will help you to do that filters easily and fast this package using pipeline technology and it will check the request part by part",
+    "license": "MIT",
+    "keywords": [
+        "usee",
+        "filter",
+        "search",
+        "package",
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "alireza alizade",
+            "email": "alizade488@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "usee\\filter\\UseeFilterServiceProvider"
+            ]
+        }
+    },
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Filter\\": "src/",
+            "usee\\filter\\": "src/"
+        },
+        "psr-0": {
+            "Filter\\": "src/"
+        },
+        "files": [
+            "src/app/Console/Kernel.php",
+            "src/Filter.php"
+        ]
+    },
+
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {}
+}
