@@ -18,23 +18,22 @@
     "extra": {
         "laravel": {
             "providers": [
-                "usee\\filter\\UseeFilterServiceProvider"
+                "youness_usee\\filter\\UseeFilterServiceProvider"
             ]
         }
     },
 
     "autoload": {
         "psr-4": {
-            "App\\": "app/",
             "Filter\\": "src/",
-            "usee\\filter\\": "src/"
+            "youness_usee\\filter\\": "src/",
+            "App\\": "app/"
         },
         "psr-0": {
             "Filter\\": "src/"
         },
         "files": [
-            "src/app/Console/Kernel.php",
-            "src/Filter.php"
+            "src/helpers.php"
         ]
     },
 

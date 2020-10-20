@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace youness_usee\filter\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
@@ -76,7 +76,7 @@ namespace App\QueryFilters;
     
 use Illuminate\View\View;
 use Illuminate\Support\Str;
-use usee\filter\Filter;
+use youness_usee\filter\Filter;
         
 class ' . $this->classNaming($type, $filter_name, $second) . ' extends Filter
 {

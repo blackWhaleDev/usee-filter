@@ -1,6 +1,6 @@
 <?php
 
-namespace App\QueryFilters;
+namespace youness_usee\filter;
 
 use Closure;
 use Illuminate\Support\Str;

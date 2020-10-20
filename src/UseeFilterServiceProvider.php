@@ -2,6 +2,7 @@
 
 namespace usee\filter;
 
+use youness_usee\filter\Console\Commands\MakeFilter;
 use Illuminate\Support\ServiceProvider;
 
 class UseeFilterServiceProvider extends ServiceProvider
@@ -15,7 +16,7 @@ class UseeFilterServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->commands([
-                UseeFilterServiceProvider::class,
+                MakeFilter::class
             ]);
         }
     }
