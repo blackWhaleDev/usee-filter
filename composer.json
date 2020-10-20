@@ -15,14 +15,7 @@
             "email": "alizade488@gmail.com"
         }
     ],
-    "extra": {
-        "laravel": {
-            "providers": [
-                "youness_usee\\filter\\UseeFilterServiceProvider"
-            ]
-        }
-    },
-
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Filter\\": "src/",
@@ -36,8 +29,13 @@
             "src/helpers.php"
         ]
     },
-
-    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "youness_usee\\filter\\UseeFilterServiceProvider"
+            ]
+        }
+    },
     "prefer-stable": true,
     "require": {}
 }
