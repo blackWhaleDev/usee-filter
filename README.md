@@ -21,11 +21,6 @@ This Command have some option:
 --type --second --relation=
 ```
 
-Here's a more advanced example:
-```php
-
-```
-
 ## Support us
 
 You can support me by using this package and help me to improve it

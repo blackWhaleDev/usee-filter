@@ -69,7 +69,7 @@ class MakeFilter extends Command
                     $q->where($this->applyFirst(), request($this->applyFirst()));
                 })';
             }
-            $class_name = $this->classNaming($apply_type, $type, $second);
+
             $contents =
                 '<?php
 namespace App\QueryFilters;
@@ -86,6 +86,7 @@ class ' . $this->classNaming($type, $filter_name, $second) . ' extends Filter
         
     protected function applyFilter($builder)
     {
+        //you can customize query from here
         return ' . $query . ';
     }
     
@@ -123,6 +124,7 @@ class ' . $this->classNaming($type, $filter_name, $second) . ' extends Filter
     
     protected function applyFirst()
     {
+        //you can customize column name from here
         return "' . Str::snake($first) . '";
     }';
 
@@ -133,7 +135,7 @@ class ' . $this->classNaming($type, $filter_name, $second) . ' extends Filter
         if ($apply_type == null){
             return $filter_name;
         }else{
-            return $apply_type . $filter_name . $second;
+            return strtolower($apply_type) . $filter_name . $second;
         }
 
     }
