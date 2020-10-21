@@ -84,7 +84,7 @@ class ' . $this->classNaming($type, $filter_name, $second) . ' extends Filter
     ' . $this->optionalFunctions($apply_type, $second, $first) . '
   
         
-    protected function applyFilter($builder)
+    protected function applyFilter($builder): Builder
     {
         //you can customize query from here
         return ' . $query . ';
