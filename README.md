@@ -105,7 +105,7 @@ in this type you should pass "--relation" option  and it will check data whereHa
 You can install the package via composer:
 
 ``` bash
-composer require blackWhaleDev/filter
+composer require youness_usee/filter
 ```
 
 The package will automatically register itself.
