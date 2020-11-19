@@ -1,4 +1,4 @@
-# usee-filter
+# blackWhaleDev-filter
 
 The `blackWhaleDev/filter` package provides easy to writing global queries for filtering.
 
