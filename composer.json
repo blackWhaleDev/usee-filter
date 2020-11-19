@@ -19,6 +19,8 @@
     "autoload": {
         "psr-4": {
             "Filter\\": "src/",
+            "youness_usee\\filter\\app\\Console\\Commands\\": "src/app/Console/Commands/",
+            "youness_usee\\filter\\app\\": "src/app/",
             "youness_usee\\filter\\": "src/",
             "App\\": "app/"
         },
