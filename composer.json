@@ -1,5 +1,5 @@
 {
-    "name": "youness_usee/filter",
+    "name": "blackWhaleDev/filter",
     "description": "the package is for filtering data for EXP you have search bar/page with multi filters option this package will help you to do that filters easily and fast this package using pipeline technology and it will check the request part by part",
     "license": "MIT",
     "keywords": [
@@ -18,9 +18,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Filter\\": "src/",
-            "youness_usee\\filter\\": "src/",
-            "App\\": "app/"
+            "blackWhaleDev\\filter\\": "src/"
         },
         "psr-0": {
             "Filter\\": "src/"
@@ -32,7 +30,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "youness_usee\\filter\\UseeFilterServiceProvider"
+                "blackWhaleDev\\filter\\UseeFilterServiceProvider"
             ]
         }
     },

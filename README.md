@@ -1,6 +1,6 @@
 # usee-filter
 
-The `youness_usee/filter` package provides easy to writing global queries for filtering.
+The `blackWhaleDev/filter` package provides easy to writing global queries for filtering.
 
 Here's a demo of how you can use it:
 
@@ -105,7 +105,7 @@ in this type you should pass "--relation" option  and it will check data whereHa
 You can install the package via composer:
 
 ``` bash
-composer require youness_usee/filter
+composer require blackWhaleDev/filter
 ```
 
 The package will automatically register itself.
