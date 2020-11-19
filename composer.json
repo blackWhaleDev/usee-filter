@@ -24,6 +24,10 @@
             "youness_usee\\filter\\": "src/",
             "App\\": "app/"
         },
+        "classmap": [
+            "src/app/Console/Commands",
+            "src/app"
+        ],
         "psr-0": {
             "Filter\\": "src/"
         },

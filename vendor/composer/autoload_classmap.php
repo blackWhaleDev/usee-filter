@@ -6,4 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'youness_usee\\filter\\app\\Console\\Commands\\MakeFilter' => $baseDir . '/src/app/Console/Commands/MakeFilter.php',
+    'youness_usee\\filter\\app\\Filter' => $baseDir . '/src/app/Filter.php',
 );
