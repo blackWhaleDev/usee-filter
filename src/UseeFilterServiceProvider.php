@@ -2,7 +2,7 @@
 
 namespace youness_usee\filter;
 
-use youness_usee\filter\Console\Commands\MakeFilter;
+use youness_usee\filter\app\Console\Commands\MakeFilter;
 use Illuminate\Support\ServiceProvider;
 
 class UseeFilterServiceProvider extends ServiceProvider
