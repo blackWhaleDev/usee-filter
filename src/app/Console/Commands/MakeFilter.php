@@ -1,6 +1,6 @@
 <?php
 
-namespace blackWhaleDev\filter\app\Console\Commands;
+namespace youness_usee\filter\app\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;

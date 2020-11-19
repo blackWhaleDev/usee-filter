@@ -1,6 +1,6 @@
 <?php
 
-namespace blackWhaleDev\filter;
+namespace youness_usee\filter;
 
 use youness_usee\filter\Console\Commands\MakeFilter;
 use Illuminate\Support\ServiceProvider;

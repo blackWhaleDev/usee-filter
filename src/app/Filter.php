@@ -1,6 +1,6 @@
 <?php
 
-namespace blackWhaleDev\filter\app;
+namespace youness_usee\filter\app;
 
 use Closure;
 use Illuminate\Support\Str;
