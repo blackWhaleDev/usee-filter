@@ -6,6 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    '3988917c25737b32425d229c10c04de3' => $baseDir . '/src/app/Console/Kernel.php',
-    '5e495b556441de734a5c71a3b9fc7309' => $baseDir . '/src/Filter.php',
+    'fc5036328a117f6ae16ee51ec2c72baf' => $baseDir . '/src/helpers.php',
 );

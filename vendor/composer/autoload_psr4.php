@@ -6,7 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'usee\\filter\\' => array($baseDir . '/src'),
+    'youness_usee\\filter\\' => array($baseDir . '/src'),
     'Filter\\' => array($baseDir . '/src'),
     'App\\' => array($baseDir . '/app'),
 );
