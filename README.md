@@ -62,7 +62,7 @@ when request come into the helper its go to the Name Class and check if request 
 it will be check and if request do not has "name" it will be go to next request (next class) without check
 
 
-Find yourself stuck using the package? Found a bug? Do you have general questions or suggestions for improving the activity log? Feel free to [create an issue on GitHub](https://github.com/usee1993/usee-filter/issues), I'll try to address it as soon as possible.
+Find yourself stuck using the package? Found a bug? Do you have general questions or suggestions for improving the filter system? Feel free to [create an issue on GitHub](https://github.com/usee1993/usee-filter/issues), I'll try to address it as soon as possible.
 
 If you've found a security issue please mail [alizade488@gmail.com](mailto:alizade488@gmail.com) instead of using the issue tracker.
 
