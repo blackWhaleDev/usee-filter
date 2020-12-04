@@ -76,7 +76,8 @@ namespace App\QueryFilters;
     
 use Illuminate\View\View;
 use Illuminate\Support\Str;
-use youness_usee\filter\Filter;
+use Illuminate\Database\Eloquent\Builder;
+use youness_usee\filter\app\Filter;
         
 class ' . $this->classNaming($type, $filter_name, $second) . ' extends Filter
 {
