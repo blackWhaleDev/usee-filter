@@ -51,7 +51,7 @@ this command will generate "likeLastName.php" file in "App\QueryFilters" Folder
 now call `pipe()` helper into your function
 
 ```php
-pipe(New User::class, [
+pipe(New User(), [
     Name::class,
     likeLastName::class, // --type = like
 ])->paginate(10);
